@@ -4,10 +4,27 @@ body {
 .copyright {
     font-family: "Noto Sans", sans-serif;
     color: white;
-    margin-top: 47%;
+    margin-top: 45%;
     text-align: center;
 }
-
+.favicon {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+.codebtn {
+    padding: 5px 10px;
+    /* font-size: 16px; */
+    background-color: #0172ab;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.codebtn:hover {
+    background-color: #015f8a;
+}
 .crbox {
     background-color: white;
     align-self: center;
