@@ -2,12 +2,9 @@
 
 A simple, lightweight web-based QR code generator built by [Zozimus Technologies](https://github.com/zozimustechnologies). Enter any text or URL and instantly generate a scannable QR code image.
 
-![QR Code Generator Screenshot](images/screenshot.png)
-
 ## Features
 
 - **Instant QR Code Generation** - Type any text or URL and click "Generate QR code" to create a QR code on the fly.
-- **Powered by QR Server API** - Uses the reliable [goqr.me API](https://goqr.me/api/) to generate high-quality QR codes.
 - **Clean, Minimal UI** - A centered card layout with a modern blue theme for a distraction-free experience.
 - **No Installation Required** - Pure HTML, CSS, and JavaScript. Just open `index.html` in your browser.
 - **Responsive Design** - Works on desktops, tablets, and mobile devices.
@@ -16,18 +13,11 @@ A simple, lightweight web-based QR code generator built by [Zozimus Technologies
 
 ## Getting Started
 
-1. **Clone the repository**
+1. **Open the website**
 
-   ```bash
-   git clone https://github.com/zozimustechnologies/qrcodegenerator.git
-   cd qrcodegenerator
-   ```
+ [The QRCode Generator](https://the-qrcode-generator.netlify.app/)
 
-2. **Open in your browser**
-
-   Simply open `index.html` in any modern web browser. No build step or server required.
-
-3. **Generate a QR code**
+2. **Generate a QR code**
 
    - Enter a URL or any text in the input field.
    - Click **Generate QR code**.
