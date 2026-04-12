@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "QR Code Generator",
+    "description": "Generate QR codes instantly from any URL or text.",
+    "version": "1.0.0",
+    "icons": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "images/icon.png",
+            "48": "images/icon.png",
+            "128": "images/icon.png"
+        },
+        "default_title": "QR Code Generator"
+    },
+    "permissions": []
+}

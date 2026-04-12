@@ -2,6 +2,14 @@
 
 A simple, lightweight web-based QR code generator built by [Zozimus Technologies](https://github.com/zozimustechnologies). Enter any text or URL and instantly generate a scannable QR code image.
 
+## Screenshot
+
+<div align="center">
+
+![QR Code Generator Screenshot](images/screenshot.svg)
+
+</div>
+
 ## Features
 
 - **Instant QR Code Generation** - Type any text or URL and click "Generate QR code" to create a QR code on the fly.
