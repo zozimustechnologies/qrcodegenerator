@@ -1,6 +1,12 @@
 body {
     background-color: #0195DD;
 }
+.copyright {
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    margin-top: 47%;
+    text-align: center;
+}
 
 .crbox {
     background-color: white;
