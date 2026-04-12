@@ -4,7 +4,7 @@
         "description": "The display name of the extension."
     },
     "extensionDescription": {
-        "message": "Instantly generate QR codes for any URL or text right from your browser sidebar. A fast, lightweight, and privacy-friendly QR code tool — no sign-up, no tracking, no ads.",
+        "message": "Generate QR codes for any URL or text from your browser sidebar. Fast, lightweight, and private — no sign-up needed.",
         "description": "The description of the extension."
     },
     "actionTitle": {
