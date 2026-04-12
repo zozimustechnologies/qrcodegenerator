@@ -13,18 +13,18 @@
 </head>
 <body>
     <div class="topbar">
-        <button class="codebtn" onclick="window.open('https://github.com/zozimustechnologies/qrcodegenerator', '_blank')">
+        <button class="codebtn" id="codebtn">
             <span class="material-symbols-outlined">code_xml</span>
         </button>
-        <button class="donate" onclick="window.open('https://wise.com/pay/business/sandeepchadda?utm_source=open_link', '_blank')">Donate</button>
+        <button class="donate" id="donatebtn">Donate</button>
     </div>
 
     <div class="crbox">
         <h2>QR Code Generator</h2>
         <p>Enter a URL or text to generate a QR code</p>
-        <form action="#" onsubmit="return false;">
+        <form id="qrform">
             <input type="text" id="value" placeholder="e.g. https://example.com">
-            <button type="submit" onclick="showText()">Generate QR Code</button>
+            <button type="submit">Generate QR Code</button>
         </form>
         <img id="qrimage" alt="Generated QR Code" title="QR Code" hidden/>
     </div>

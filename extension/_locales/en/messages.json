@@ -1,0 +1,14 @@
+{
+    "extensionName": {
+        "message": "QR Code Generator",
+        "description": "The display name of the extension."
+    },
+    "extensionDescription": {
+        "message": "Instantly generate QR codes for any URL or text right from your browser sidebar. A fast, lightweight, and privacy-friendly QR code tool — no sign-up, no tracking, no ads.",
+        "description": "The description of the extension."
+    },
+    "actionTitle": {
+        "message": "Open QR Code Generator",
+        "description": "The tooltip for the extension icon."
+    }
+}

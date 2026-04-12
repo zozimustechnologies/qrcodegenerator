@@ -1,20 +1,26 @@
 {
     "manifest_version": 3,
-    "name": "QR Code Generator",
+    "name": "__MSG_extensionName__",
+    "short_name": "QR Generator",
     "version": "1.0.0",
-    "description": "Instantly generate QR codes for any URL or text right from your browser sidebar. A fast, lightweight, and privacy-friendly QR code tool — no sign-up, no tracking, no ads.",
+    "description": "__MSG_extensionDescription__",
+    "default_locale": "en",
+    "author": "Zozimus Technologies",
+    "homepage_url": "https://github.com/zozimustechnologies/qrcodegenerator",
     "icons": {
         "16": "icons/icon-16.png",
         "32": "icons/icon-32.png",
-        "48": "icons/icon-48.png"
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png"
     },
     "action": {
         "default_icon": {
             "16": "icons/icon-16.png",
             "32": "icons/icon-32.png",
-            "48": "icons/icon-48.png"
+            "48": "icons/icon-48.png",
+            "128": "icons/icon-128.png"
         },
-        "default_title": "Open QR Code Generator"
+        "default_title": "__MSG_actionTitle__"
     },
     "side_panel": {
         "default_path": "sidepanel.html"
@@ -22,6 +28,9 @@
     "permissions": [
         "sidePanel"
     ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; img-src 'self' https://api.qrserver.com; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com; connect-src 'self' https://api.qrserver.com"
+    },
     "background": {
         "service_worker": "background.js"
     }
