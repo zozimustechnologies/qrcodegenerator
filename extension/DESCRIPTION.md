@@ -2,7 +2,6 @@
 
 Generate QR codes instantly for any URL or text, right from your browser sidebar.
 
-![QR Code Generator](screenshots/screenshot-1280x800.png)
 
 ---
 
@@ -30,8 +29,6 @@ QR Code Generator is a simple, fast, and privacy-friendly browser extension that
 3. Type or paste a URL or any text into the input field.
 4. Click **Generate QR Code**.
 5. Your QR code appears instantly — scan it with any mobile device.
-
-![Demo](screenshots/demo.gif)
 
 ---
 
