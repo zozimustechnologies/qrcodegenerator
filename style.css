@@ -1,84 +1,170 @@
-body {
-    background-color: #0195DD;
+/* Reset & base */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Noto Sans", sans-serif;
+    background-color: #3B5998;
+}
+
+/* Top bar */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.codebtn {
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.codebtn:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.donate {
+    padding: 8px 20px;
+    background-color: #D9534F;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.donate:hover {
+    background-color: #C9302C;
+    transform: translateY(-1px);
+}
+
+/* Main card */
+.crbox {
+    background-color: #ffffff;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 32px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 420px;
+    gap: 20px;
+}
+
+.crbox h2 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #2C3E6B;
+    margin-bottom: 4px;
+}
+
+.crbox p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    color: #7a8aa8;
+    margin-bottom: 8px;
+}
+
+.crbox form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+}
+
+.crbox input[type="text"] {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #dde2ec;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.crbox input[type="text"]:focus {
+    border-color: #3B5998;
+}
+
+.crbox input[type="text"]::placeholder {
+    color: #aab4c8;
+}
+
+.crbox button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #3B5998;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Noto Sans", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    letter-spacing: 0.3px;
+}
+
+.crbox button[type="submit"]:hover {
+    background-color: #2D4373;
+    transform: translateY(-1px);
+}
+
+.crbox img {
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+/* Copyright */
 .copyright {
     font-family: "Noto Sans", sans-serif;
-    color: white;
-    margin-top: 44%;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
     text-align: center;
+    position: fixed;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
+
 .favicon {
     height: 32px;
     width: 32px;
     border-radius: 50%;
-}
-.donate {
-    padding: 5px 10px;
-    background-color: #0172ab;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-    margin-left: 92%;
-    margin-top: auto;
-}
-.donate:hover {
-    background-color: #015f8a;
-}
-.codebtn {
-    padding: 5px 10px;
-    background-color: #0172ab;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-.codebtn:hover {
-    background-color: #015f8a;
-}
-.crbox {
-    background-color: white;
-    align-self: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 5px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 20%;
-    margin-right: 20%;
-    outline-color: white;
-}
-.crbox img {
-    align-items: right;
-    height: 100px;
-    width: 100px;
-    align-self: right;
-    outline-color: white;
-    border-right: 50px;
-    border: 50px solid white;
-    cursor: pointer;
-}
-
-.crbox button {
-    background-color: #0573A9;
-    border-radius: 5px;
-    outline-color: white;
-    text-align: center;
-    color: white;
-    cursor: pointer;
-}
-
-footer {
-    font-family: "Noto Sans", sans-serif;
-    color: white;
-    margin-top: 54%;
-    text-align: center;
 }
