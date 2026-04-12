@@ -6,9 +6,25 @@ A simple, lightweight web-based QR code generator built by [Zozimus Technologies
 
 <div align="center">
 
-![QR Code Generator Screenshot](images/screenshot.svg)
+![QR Code Generator](extension/screenshots/screenshot-1280x800.png)
 
 </div>
+
+## Demo
+
+<div align="center">
+
+![QR Code Generator Demo](extension/screenshots/demo.gif)
+
+</div>
+
+## Screenshots
+
+| Size | Preview |
+|------|---------|
+| 440×280 | ![Small](extension/screenshots/screenshot-440x280.png) |
+| 1280×800 | ![Large](extension/screenshots/screenshot-1280x800.png) |
+| 1400×560 | ![Marquee](extension/screenshots/screenshot-1400x560.png) |
 
 ## Features
 
@@ -33,12 +49,13 @@ A simple, lightweight web-based QR code generator built by [Zozimus Technologies
 
 ## Project Structure
 
-| File | Description |
+| File / Folder | Description |
 |------|-------------|
 | `index.html` | Main HTML page with the input form and layout |
 | `style.css` | Styling with blue theme, card layout, and buttons |
 | `backend.js` | JavaScript logic to call the QR code API and display the result |
 | `images/` | Favicon, icon, and screenshot assets |
+| `extension/` | Chrome/Edge side panel extension (manifest, icons, screenshots, demo) |
 
 ## Technologies Used
 
