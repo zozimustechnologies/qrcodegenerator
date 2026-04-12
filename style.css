@@ -4,7 +4,7 @@ body {
 .copyright {
     font-family: "Noto Sans", sans-serif;
     color: white;
-    margin-top: 45%;
+    margin-top: 44%;
     text-align: center;
 }
 .favicon {
@@ -12,9 +12,22 @@ body {
     width: 32px;
     border-radius: 50%;
 }
+.donate {
+    padding: 5px 10px;
+    background-color: #0172ab;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-left: 92%;
+    margin-top: auto;
+}
+.donate:hover {
+    background-color: #015f8a;
+}
 .codebtn {
     padding: 5px 10px;
-    /* font-size: 16px; */
     background-color: #0172ab;
     color: white;
     border: none;
