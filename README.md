@@ -68,4 +68,3 @@ A simple, lightweight web-based QR code generator built by [Zozimus Technologies
 ## License
 
 Copyright 2026 Zozimus Technologies
-[MIT License](/LICENSE)
