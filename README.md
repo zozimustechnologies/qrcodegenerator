@@ -39,9 +39,7 @@ A simple, lightweight web-based QR code generator built by [Zozimus Technologies
 
 1. **Open the website**
 
- [The QRCode Generator](https://the-qrcode-generator.netlify.app/) <br/><br/>
- [![Netlify Status](https://api.netlify.com/api/v1/badges/0a3133cc-1034-4640-8eb6-21dd649c2d4c/deploy-status)](https://app.netlify.com/projects/the-qrcode-generator/deploys)
-
+ [The QRCode Generator](https://the-qrcode-generator.netlify.app/)
 2. **Generate a QR code**
 
    - Enter a URL or any text in the input field.
@@ -67,4 +65,4 @@ A simple, lightweight web-based QR code generator built by [Zozimus Technologies
 
 ## License
 
-Copyright 2026 Zozimus Technologies
+<p>Copyright &copy 2026 Zozimus Technologies</p>
