@@ -282,7 +282,9 @@
     /* ── Screenshots ── */
     .screenshots {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      max-width: 720px;
+      margin: 0 auto;
       gap: 20px;
     }
 
@@ -481,7 +483,7 @@
     <div class="steps">
       <div class="step">
         <h3>Install the extension</h3>
-        <p>Get it from the <a href="https://microsoftedge.microsoft.com/addons/detail/qr-code-generator/kcjdgoccjamenahcmpipbdcfkpnknami" target="_blank" rel="noopener">Edge Add-ons store</a> or load it unpacked from <code>edge://extensions</code>.</p>
+        <p>Get it from the <a href="https://microsoftedge.microsoft.com/addons/detail/qr-code-generator/kcjdgoccjamenahcmpipbdcfkpnknami" target="_blank" rel="noopener">Edge Add-ons store</a>.</p>
       </div>
       <div class="step">
         <h3>Open the side panel</h3>
@@ -504,7 +506,8 @@
       <h2>See it in action</h2>
     </div>
     <div class="screenshots">
-      <img src="images/screenshot.svg" alt="QR Code Generator interface" loading="lazy">
+      <img src="images/screenshot-1280x800.png" alt="QR Code Generator in browser" loading="lazy">
+      <img src="images/screenshot-440x280.png" alt="QR Code Generator compact view" loading="lazy">
     </div>
   </section>
 
