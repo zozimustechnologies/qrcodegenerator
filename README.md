@@ -35,6 +35,10 @@ A simple, lightweight web-based QR code generator built by [Zozimus Technologies
 - **View Source Code** - Quick-access button to jump to the GitHub repository.
 - **Donate Button** - Support the developer directly via Wise.
 
+## Install
+
+[**Get it from the Edge Add-ons store**](https://microsoftedge.microsoft.com/addons/detail/qr-code-generator/kcjdgoccjamenahcmpipbdcfkpnknami)
+
 ## Getting Started
 
 1. **Open the website**

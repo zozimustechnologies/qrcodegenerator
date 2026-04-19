@@ -61,6 +61,7 @@ If you find this extension useful, consider supporting the developer via the **D
 
 ## Links
 
+- [Install from Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/qr-code-generator/kcjdgoccjamenahcmpipbdcfkpnknami)
 - [Source Code on GitHub](https://github.com/zozimustechnologies/qrcodegenerator)
 - [Report an Issue](https://github.com/zozimustechnologies/qrcodegenerator/issues)
 
