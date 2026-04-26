@@ -67,6 +67,19 @@ A simple, lightweight web-based QR code generator built by [Zozimus Technologies
 - **JavaScript** (Vanilla)
 - **[QR Server API](https://goqr.me/api/)**
 
+## Changelog
+
+### v5.1.0 — 26 April 2026
+
+- **Copy button** — Copy the generated QR code image directly to your clipboard with one click.
+- **Download button** — Save the QR code as a PNG file (`qrcode.png`) to your device.
+- **Input validation** — Clicking "Generate QR Code" with an empty field now shows an inline error message instead of silently doing nothing.
+- **Disabled state** — Copy and Download buttons are visible but disabled until a QR code has been generated.
+- **Bug fix** — Removed pointer cursor and tooltip from the QR code image.
+- **Website restructure** — Web UI moved to `/web` directory; Netlify deployment configured via `netlify.toml`.
+
+---
+
 ## License
 
 <p>Copyright &copy 2026 Zozimus Technologies</p>

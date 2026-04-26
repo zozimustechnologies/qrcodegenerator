@@ -1,0 +1,21 @@
+{
+  "name": "qrcodegenerator",
+  "version": "1.0.0",
+  "description": "A simple, lightweight web-based QR code generator built by [Zozimus Technologies](https://github.com/zozimustechnologies). Enter any text or URL and instantly generate a scannable QR code image.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "png-to-ico": "^3.0.1",
+    "puppeteer": "^24.42.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.34.5"
+  }
+}

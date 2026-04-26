@@ -59,6 +59,18 @@ If you find this extension useful, consider supporting the developer via the **D
 
 ---
 
+## Changelog
+
+### v5.1.0 — 26 April 2026
+
+- **Copy** — Copy the generated QR code image to your clipboard in one click.
+- **Download** — Save the QR code as a PNG file directly to your device.
+- **Input validation** — An error message is shown if you try to generate without entering any text.
+- **Disabled state** — Copy and Download buttons appear from the start but are disabled until a QR code is generated.
+- **Bug fix** — Removed unintended pointer cursor and tooltip on the QR code image.
+
+---
+
 ## Links
 
 - [Install from Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/qr-code-generator/kcjdgoccjamenahcmpipbdcfkpnknami)
