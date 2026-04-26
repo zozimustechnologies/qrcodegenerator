@@ -20,9 +20,10 @@ const BG = { r: 59, g: 89, b: 152 }; // #3B5998
 
 // [filename, canvasW, canvasH, withQR]
 const SPECS = [
-  ["screenshot-440x280.png",  440,  280, false],
+  ["small-promo-tile.png",    440,  280, false],
+  ["large-promo-tile.png",    920,  680, true],
   ["screenshot-1280x800.png", 1280, 800, true],
-  ["screenshot-1400x560.png", 1400, 560, true],
+  ["marquee-promo-tile.png",  1400, 560, true],
 ];
 
 async function capturePanel(page, withQR) {
