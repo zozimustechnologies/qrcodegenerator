@@ -67,4 +67,4 @@ Links
 - Report an Issue: https://github.com/zozimustechnologies/qrcodegenerator/issues
 
 
-© 2026 Zozimus Technologies — https://github.com/zozimustechnologies
+© 2026 Zozimus Technologies — https://zozimustechnologies.github.io/
