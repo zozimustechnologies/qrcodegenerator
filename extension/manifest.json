@@ -26,7 +26,8 @@
         "default_path": "sidepanel.html"
     },
     "permissions": [
-        "sidePanel"
+        "sidePanel",
+        "clipboardWrite"
     ],
     "content_security_policy": {
         "extension_pages": "script-src 'self'; img-src 'self' https://api.qrserver.com; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com; connect-src 'self' https://api.qrserver.com"
